@@ -18,7 +18,7 @@ reclame_tekst3 = reclame_tekst2.upper()
 # Reclame tekst 4 - list
 reclame_tekst4 = reclame_tekst3.split()
 
-# Alle woorden onder elkaar - geen hoofdletters
+# Alle woorden onder elkaar - enkel 5 letter of meer hoofdletters rest kleine letters
 for e1 in reclame_tekst4:
     if len(e1)>=5:
         print(e1.upper())
